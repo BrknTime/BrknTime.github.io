@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo de aplicaciones</title>
 </head>
 <body>
-    <p>Este es un parrafo</p> 
-    <p>EZ</p> 
-    <br>
-    Escribe tu nombre <input type="text" value="Hola">
+    <fieldset>
+        <legend>Contacto</legend>
+        <p>
+            Nombre de usuario
+        <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+        </p>
+        <p>
+            Password
+        <input type="password" name="nombre" placeholder="Ingresa tu password">
+        </p>
+        <p>
+            Edad
+        <input type="number" placeholder="Edad" min="18" max="65">
+        </p>
+        <p>
+            Lista desplegable
+            <select id="Seleccion">
+                <option value="1">Opcion 1 </option>
+                <option value="2" selected >Opcion 2 </option>
+                <option value="3">Opcion 3 </option>
+        </p>
+        
+    </fieldset>
 </body>
 </html>
